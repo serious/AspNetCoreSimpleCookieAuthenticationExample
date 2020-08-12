@@ -25,10 +25,15 @@ Newtonsoft.Json
 Microsoft.AspNetCore.Mvc.NewtonsoftJson
 Automapper
 Automapper.Extensions.Microsoft.DependencyInjection
+System.ComponentModel.Annotations
+Microsoft.Extensions.Http
 
 *After installation complate, you should use DB or Code First approach to build your context. Lets example DB First Approach
 
 dotnet ef dbcontext scaffold "Server=localhost;Database=ApplicationDB;Integrated Security=true;" Microsoft.EntityFrameworkCore.SqlServer -c "ApplicationContextName" --force --project Application.ProjectName --startup-project Application.StartupProjectName
 
 
-it is finished. You can apply "Startup.cs" and "AccountController.cs" file solutions
+Yeah You have just installed your requirements. Now you can apply "Startup.cs" and "AccountController.cs" file solutions to your project.
+
+
+Thank you for interests.

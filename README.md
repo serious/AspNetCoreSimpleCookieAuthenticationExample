@@ -17,16 +17,27 @@ dotnet tool update --global dotnet-ef
 *We need theese packages from nuget package manager.
 
 -Microsoft.EntityFrameworkCore
+
 -Microsoft.EntityFrameworkCore.Design
+
 -Microsoft.EntityFrameworkCore.SqlServer
+
 -Microsoft.EntityFrameworkCore.Tools
-*Optionally you need
+
+****Optionally you need
+
 -Newtonsoft.Json
+
 -Microsoft.AspNetCore.Mvc.NewtonsoftJson
+
 -Automapper
+
 -Automapper.Extensions.Microsoft.DependencyInjection
+
 -System.ComponentModel.Annotations
+
 -Microsoft.Extensions.Http
+
 
 *After installation complate, you should use DB or Code First approach to build your context. Lets example DB First Approach
 

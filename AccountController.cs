@@ -29,7 +29,7 @@ public class AccountController : Controller
 
             else
             {
-                ViewBag.Hata = "Username or Password is wrong";
+                ViewBag.Error = "Username or Password is wrong";
                 return View();
             }
         }
